@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario; Determinar el código </title>
+</head>
+
+<body>
+    <h1>Rellena tu CV</h1>
+    
+    <form  method="post" enctype="multipart/form-data" action="/php/insertar_cv.php">
+       
+        Nombre <br> <input type="text"; name="nombre"; value=""; maxlength="30";> <br>
+        Apellidos <br> <input type="text" name="apellidos"; value=""; maxlength="60";> <br>
+        Contrase&ntilde;a <br> <input type="password"; name="contraseña"; value="" maxlength="10";> <br>
+        DNI <br> <input type="text"; name="DNI";  maxlength="9";> <br>
+        Sexo <br>
+        <input type="radio" name="sexo" value="Hombre" checked> Hombre <br>
+        <input type="radio" name="sexo" value="Mujer" checked> Mujer <br>
+
+        <br> Incluir mi foto <input type="text"; name="adjuntar"; value="";>
+        <input type="submit" type="file" value="Elegir..." /> <br>
+        
+        <br> <input name="campo_requerido_obligatorio" type="checkbox" value="Suscribirme al boletín de novedades" checked="checked">Suscribirme al boletín de novedades <br>
+        <br> <input type="button" name="submit" value="Guardar Cambios"> <input type="button" name="reset" value="Borrar los datos introducidos">
+    </form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Determinar el código HTML</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="ejercicio15.php" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="Provincia">Provincia</label>  <br> 
+            <select id="selcciona" name="Provincias">
+                <option value="" selected="selected">-selecciona-</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Bilbao">Bilbao</option>
+                <option value="Málaga">Málaga</option>
+                <option value="Burgos">Burgos</option>
+                <option value="Asturias">Asturias</option>
+                <option value="Segovia">Segovia</option>
+                <option value="Toledo">Toledo</option>
+            </select> <br>
+            
+            <br> <label for="Fecha de nacimiento">Fecha de nacimiento</label> <br>
+            <input type="number" maxlength="2";> de <select id="selecciona" name="Mes">
+                <option value="selecciona">-mes-</option>
+                <option value="enero">enero</option>
+                <option value="febrero">febrero</option>
+                <option value="marzo">marzo</option>
+                <option value="abril">abril</option>
+                <option value="mayo">mayo</option>
+                <option value="junio">junio</option>
+                <option value="julio">julio</option>
+                <option value="agosto">agosto</option>
+                <option value="septiembre">septiembre</option>
+                <option value="octubre">octubre</option>
+                <option value="noviembre">noviembre</option>
+                <option value="diciembre">diciembre</option>
+            </select>
+            de <input type="number" maxlength="4"> <br>
+
+            <br><label for="interés">Temas de interés</label> 
+            <br><textarea id="Temas de interés" name="Temas de interés" rows="5" cols="45">
+            Administración de bases de datos
+            Análisis y programación 
+            Arquitectura 
+            Calidad 
+            ERP, CRM, Business Intelligence 
+            </textarea>
+
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>

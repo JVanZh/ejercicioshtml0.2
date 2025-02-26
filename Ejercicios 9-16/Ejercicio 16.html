@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Último ejercicio de HTML</title>
+</head>
+
+<body>
+    <h1>Información sobre el producto</h1>
+
+    <form action="producto.php" method="post">
+        <fieldset>
+            <legend>Datos básicos</legend>
+            Nombre <br> <input type="text" name="nombre" value="" maxlength="30";> <br>
+
+            <br> Descripción <br> <textarea name="Descripción" rows="5" cols="50"></textarea> <br>
+
+            <br> Foto <input src=""> <input type="button" name="selcciona" value="Elegir..."> <br>
+           
+            <br> <input type="checkbox" name="adjuntar"> Añadir controlador de vistas
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos económicos</legend>
+            Precio <input type="number" value="" maxlength="1000"; name="precio">€ 
+            Impuestos <select id="selcciona" name="Impuestos">
+                <option value="selecciona">Seleccona</option>
+                <option value="4%">4%</option>
+                <option value="7%">7%</option>
+                <option value="16%">16%</option>
+                <option value="25%">25%</option>
+            </select> <br>
+
+            <br>Promorción 
+            <br><input type="radio" name="Promorción" value="Ninguno">Ninguno <br>
+            <input type="radio" name="Promorción" value="Transporte gratuito"> Transporte gratuito<br>
+            <input type="radio" name="Promorción" value="Descuento 5%"> Descuento 5%<br>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>

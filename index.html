@@ -1,35 +1,90 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios</title>
+  <style type="text/css">
+    /* Estilo general */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #444; /* Color gris oscuro */
+      margin-bottom: 1em;
+    }
+
+    /* Contenedor principal */
+    .container {
+      width: 90%;
+      max-width: 600px;
+      background: white;
+      padding: 2em;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar volumen */
+      border-radius: 8px; /* Bordes redondeados */
+    }
+
+    /* Estilo de los enlaces */
+    .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Dos columnas */
+      gap: 1em; /* Espaciado entre los enlaces */
+      text-align: center;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: #333; /* Color gris oscuro */
+      font-weight: bold;
+      background: #fff; /* Fondo blanco */
+      border: 2px solid #ddd; /* Borde gris claro */
+      padding: 0.5em 1em; /* Espaciado interno */
+      border-radius: 6px; /* Bordes redondeados */
+      transition: all 0.3s ease; /* Transición suave */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    }
+
+    .links a:hover {
+      background: #f0f0f0; /* Fondo gris claro al pasar el ratón */
+      color: #000; /* Color negro al pasar el ratón */
+      border-color: #bbb; /* Borde gris más oscuro */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Sombra más marcada */
+    }
+  </style>
 </head>
-
 <body>
+  <div class="container">
     <h1>Ejercicios de HTML</h1>
-  
-    <a href="./Ejercicios 1-8/Ejercicio 1.html" target="_self">Ejercicio 1</a> <br>
-    <a href="./Ejercicios 1-8/Ejercicio 2.html" target="_self"> Ejercicio 2</a> <br>
-    <a href="./Ejercicios 1-8/Ejercicio 3.html" target="_self">Ejercicio 3</a> <br>
-    <a href="./Ejercicios 1-8/Ejercicio 4.html" target="_blank">Ejercicio 4</a> <br>
-    <a href="./Ejercicios 1-8/Ejercicio 5.html" target="_self">Ejercicio 5</a> <br>
-    <a href="./Ejercicio 6/indiceEj6.html" target="_blank">Ejercicio 6</a> <br>
-    <p>Ejercicio 7: enlazar el favicon en todas las páginas del ejercicio 6 </p>
-    <a href="./Ejercicios 1-8/Ejercicio 8.html" target="_self">Ejercicio 8</a> <br>
-    <a href="./Ejercicios 9-16/Ejercicio 9.html" target="_self">Ejercicio 9</a> <br>
-    <a href="./Ejercicio 10.html" target="_blank">Ejercicio 10</a> <br>
-    <a href="./Ejercicios 9-16/Ejercicio 11.html" target="_self"> Ejercicio 11</a> <br>
-    <a href="./Ejercicio 12/Ejercicio 12.html" target="_blank">Ejercicio 12</a> <br>
-    <a href="./Ejercicios 9-16/Ejercicio 13.html" target="_blank">Ejercicio 13</a> <br>
-    <a href="./Ejercicios 9-16/Ejercicio 14.html" target="_self">Ejercicio 14</a> <br>
-    <a href="./Ejercicios 9-16/Ejercicio 15.html" target="_blank">Ejercicio 15</a> <br>
-    <a href="./Ejercicios 9-16/Ejercicio 16.html" target="_blank">Ejercicio 16</a>
-
-    <h2>Ejercicios CSS</h2>
-    <a href="./Ejercicio1css.html" target="_blank">Ejercicio 1</a> <br>
-    <a href="./Ejercicio2css.html" target="_self">Ejercicio 2</a> <br>
+    <div class="links">
+      <a href="./Ejercicios 1-8/Ejercicio 1.html" target="_self">Ejercicio 1</a>
+      <a href="./Ejercicios 1-8/Ejercicio 2.html" target="_self">Ejercicio 2</a>
+      <a href="./Ejercicios 1-8/Ejercicio 3.html" target="_self">Ejercicio 3</a>
+      <a href="./Ejercicios 1-8/Ejercicio 4.html" target="_blank">Ejercicio 4</a>
+      <a href="./Ejercicios 1-8/Ejercicio 5.html" target="_self">Ejercicio 5</a>
+      <a href="./Ejercicio 6/indiceEj6.html" target="_blank">Ejercicio 6</a>
+      <a href="./Ejercicios 1-8/Ejercicio 8.html" target="_self">Ejercicio 8</a>
+      <a href="./Ejercicios 9-16/Ejercicio 9.html" target="_self">Ejercicio 9</a>
+    </div>
     
+    <h2>Ejercicios CSS</h2>
+    <div class="links">
+      <a href="./Ejercicio1css.html" target="_blank">Ejercicio 1</a>
+      <a href="./Ejercicio2css.html" target="_self">Ejercicio 2</a>
+      <a href="./Ejercicio3css.html" target="_blank">Ejercicio 3</a>
+      <a href="./Ejercicio4css.html" target="_blank">Ejercicio 4</a>
+      <a href="./Ejercicio5css.html" target="_blank">Ejercicio 5</a>
+      <a href="./Ejercicio6css.html" target="_blank">Ejercicio 6</a>
+    </div>
+  </div>
 </body>
 </html>

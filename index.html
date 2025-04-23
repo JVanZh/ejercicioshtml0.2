@@ -5,61 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ejercicios</title>
   <style type="text/css">
-    /* Estilo general */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
+   body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
-    h1, h2 {
-      text-align: center;
-      color: #444; /* Color gris oscuro */
-      margin-bottom: 1em;
-    }
+h1, h2 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 1em;
+}
 
-    /* Contenedor principal */
-    .container {
-      width: 90%;
-      max-width: 600px;
-      background: white;
-      padding: 2em;
-      border: 1px solid #ddd;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar volumen */
-      border-radius: 8px; /* Bordes redondeados */
-    }
+.container {
+  width: 90%;
+  max-width: 600px;
+  background: white;
+  padding: 2em;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
 
-    /* Estilo de los enlaces */
-    .links {
-      display: grid;
-      grid-template-columns: 1fr 1fr; /* Dos columnas */
-      gap: 1em; /* Espaciado entre los enlaces */
-      text-align: center;
-    }
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  text-align: center;
+}
 
-    .links a {
-      text-decoration: none;
-      color: #333; /* Color gris oscuro */
-      font-weight: bold;
-      background: #fff; /* Fondo blanco */
-      border: 2px solid #ddd; /* Borde gris claro */
-      padding: 0.5em 1em; /* Espaciado interno */
-      border-radius: 6px; /* Bordes redondeados */
-      transition: all 0.3s ease; /* Transición suave */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    }
+.links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  background: #fff;
+  border: 2px solid #ddd;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-    .links a:hover {
-      background: #f0f0f0; /* Fondo gris claro al pasar el ratón */
-      color: #000; /* Color negro al pasar el ratón */
-      border-color: #bbb; /* Borde gris más oscuro */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Sombra más marcada */
-    }
+.links a:hover {
+  background: #f0f0f0;
+  color: #000;
+  border-color: #bbb;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.web-section {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.web-section .web-link {
+  font-size: 1.2em;
+  color: #566573;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.web-section .web-link:hover {
+  color: #7fb3d5;
+  text-decoration: underline;
+}
+
   </style>
 </head>
 <body>
@@ -85,6 +100,23 @@
       <a href="./Ejercicio5css.html" target="_blank">Ejercicio 5</a>
       <a href="./Ejercicio6css.html" target="_blank">Ejercicio 6</a>
     </div>
+
+    <div class="web-section">
+      <h2><small>Pincha abajo para acceder - </small>Página Web</h2>
+      <p>
+        <a href="https://jvanzh.github.io/LauraMartin_NataliaCrespo_JiaqiVanesaZhu/
+        " class="web-link">Página Web</a>
+      </p>
+    </div>
+
+    <div class="web-section">
+      <h2><small>Pincha abajo para acceder - </small>Página Web</h2>
+      <p>
+        <a href="https://jjsaoj.wordpress.com/" class="web-link">Página Web WordPress</a>
+      </p>
+    </div>
+
   </div>
+
 </body>
 </html>
